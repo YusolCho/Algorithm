@@ -18,7 +18,7 @@ def dijkstra(start_node):
     q = []
     heapq.heappush(q,(0,start_node)) # 거리, 노드
 
-    minimum_distance[start_node] 
+    minimum_distance[start_node] = 0
 
     while q: 
         start_here_distance, here = heapq.heappop(q) # 거리, 노드 
